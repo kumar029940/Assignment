@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  @media (max-width: 768px) {
+    table, th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    tr {
+      margin-bottom: 15px;
+    }
+  
+    th, td {
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    th::before, td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5; 
+    color: #333;
+  }
+  
+  h1 {
+    color: #2e8b57; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #2e8b57; 
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3cb371; 
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white; 
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #2e8b57; 
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  tr:hover {
+    background-color: #ddd; 
+  }
+  
+  tr.expanded-row {
+    background-color: #e0f7fa; 
+  }
+  
+  
+  
+  h1 {
+    color: #2e8b57; 
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #2e8b57; 
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3cb371; 
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white; 
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #2e8b57; 
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+    
+  }
+  
+  tr:hover {
+    background-color: #ddd; 
+  }
+  
+  tr.expanded-row {
+    background-color: #e0f7fa; 
+  }
+  
+ 
